@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3205BBC31B52F5B200514886 /* IKNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205BBC21B52F5B200514886 /* IKNavigationDelegate.m */; };
 		32F53EB01B1FEF4B00DF6F2F /* IKCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F53EAF1B1FEF4B00DF6F2F /* IKCoreUITests.m */; };
 		32F53EC61B1FEFFE00DF6F2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F53EBC1B1FEFFE00DF6F2F /* AppDelegate.m */; };
 		32F53EC71B1FEFFE00DF6F2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F53EBD1B1FEFFE00DF6F2F /* LaunchScreen.xib */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3205BBC11B52F5B200514886 /* IKNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKNavigationDelegate.h; sourceTree = "<group>"; };
+		3205BBC21B52F5B200514886 /* IKNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKNavigationDelegate.m; sourceTree = "<group>"; };
 		32F53E901B1FEF4A00DF6F2F /* IKCoreUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKCoreUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F53EA91B1FEF4B00DF6F2F /* IKCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F53EAE1B1FEF4B00DF6F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3205BBC01B52F5A900514886 /* NavigationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3205BBC11B52F5B200514886 /* IKNavigationDelegate.h */,
+				3205BBC21B52F5B200514886 /* IKNavigationDelegate.m */,
+			);
+			path = NavigationDelegate;
+			sourceTree = "<group>";
+		};
 		32F53E871B1FEF4A00DF6F2F = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +132,7 @@
 		32F53EB91B1FEFFE00DF6F2F /* IKCoreUI */ = {
 			isa = PBXGroup;
 			children = (
+				3205BBC01B52F5A900514886 /* NavigationDelegate */,
 				32F53ECD1B1FF05A00DF6F2F /* UIAlertView */,
 				32F53ED01B1FF05A00DF6F2F /* UIBarButtonItem */,
 				32F53ED31B1FF05A00DF6F2F /* UICollectionView */,
@@ -313,6 +326,7 @@
 				32F53ECC1B1FEFFE00DF6F2F /* ViewController.m in Sources */,
 				32F53EE41B1FF05A00DF6F2F /* UICollectionViewCell+Automation.m in Sources */,
 				32F53EE71B1FF05A00DF6F2F /* UIView+ExclusiveTouch.m in Sources */,
+				3205BBC31B52F5B200514886 /* IKNavigationDelegate.m in Sources */,
 				32F53EE31B1FF05A00DF6F2F /* UIBarButtonItem+Blocks.m in Sources */,
 				32F53EE21B1FF05A00DF6F2F /* UIAlertView+Blocks.m in Sources */,
 				32F53EE61B1FF05A00DF6F2F /* UITableViewCell+Automation.m in Sources */,
